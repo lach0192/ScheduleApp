@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C30F99FD1FCDC508006B88B6 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30F99FC1FCDC508006B88B6 /* Protocols.swift */; };
 		C3491CBB1FCD1F4100042A24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3491CBA1FCD1F4100042A24 /* AppDelegate.swift */; };
 		C3491CBD1FCD1F4100042A24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3491CBC1FCD1F4100042A24 /* ViewController.swift */; };
 		C3491CC01FCD1F4100042A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3491CBE1FCD1F4100042A24 /* Main.storyboard */; };
 		C3491CC21FCD1F4100042A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3491CC11FCD1F4100042A24 /* Assets.xcassets */; };
 		C3491CC51FCD1F4100042A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3491CC31FCD1F4100042A24 /* LaunchScreen.storyboard */; };
+		C3491CCD1FCD215700042A24 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3491CCC1FCD215700042A24 /* EventViewController.swift */; };
+		C3491CCF1FCD227300042A24 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3491CCE1FCD227300042A24 /* Event.swift */; };
+		C3491CD11FCD227E00042A24 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3491CD01FCD227E00042A24 /* Schedule.swift */; };
+		C3491CD71FCD283B00042A24 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3491CD61FCD283B00042A24 /* NewEventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C30F99FC1FCDC508006B88B6 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		C3491CB71FCD1F4100042A24 /* Midterm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Midterm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3491CBA1FCD1F4100042A24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3491CBC1FCD1F4100042A24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		C3491CC11FCD1F4100042A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3491CC41FCD1F4100042A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3491CC61FCD1F4100042A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3491CCC1FCD215700042A24 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		C3491CCE1FCD227300042A24 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C3491CD01FCD227E00042A24 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		C3491CD61FCD283B00042A24 /* NewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				C3491CC11FCD1F4100042A24 /* Assets.xcassets */,
 				C3491CC31FCD1F4100042A24 /* LaunchScreen.storyboard */,
 				C3491CC61FCD1F4100042A24 /* Info.plist */,
+				C3491CCC1FCD215700042A24 /* EventViewController.swift */,
+				C3491CCE1FCD227300042A24 /* Event.swift */,
+				C3491CD01FCD227E00042A24 /* Schedule.swift */,
+				C3491CD61FCD283B00042A24 /* NewEventViewController.swift */,
+				C30F99FC1FCDC508006B88B6 /* Protocols.swift */,
 			);
 			path = Midterm;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3491CCF1FCD227300042A24 /* Event.swift in Sources */,
 				C3491CBD1FCD1F4100042A24 /* ViewController.swift in Sources */,
+				C30F99FD1FCDC508006B88B6 /* Protocols.swift in Sources */,
 				C3491CBB1FCD1F4100042A24 /* AppDelegate.swift in Sources */,
+				C3491CD11FCD227E00042A24 /* Schedule.swift in Sources */,
+				C3491CD71FCD283B00042A24 /* NewEventViewController.swift in Sources */,
+				C3491CCD1FCD215700042A24 /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +322,7 @@
 				C3491CCB1FCD1F4100042A24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
